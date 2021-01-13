@@ -9,4 +9,4 @@ It will also provide information about whether a specific person would be a good
 Second version: 
 
 Do you feel you have few friends at school? Do you think you cannot find a good partner while working on assignments? 
-HSF&P (High School Friends & Parners) is the app you need! Download this app can make the change happen! 
+HSF&P (High School Friends & Parners) is the app you need! Download this app now! 
