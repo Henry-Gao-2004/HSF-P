@@ -8,6 +8,7 @@ public class Comment {
 	
 	public Comment (String text) {
 		this.text=text;
+		setVal();
 	}
 
 	public String getText() {
@@ -24,7 +25,8 @@ public class Comment {
 
 	public void setVal() {
 		if (text==null)val=0;
-		if (checkNegative())val=Integer.MIN_VALUE;
+		if (checkNegative())
+			val=Integer.MIN_VALUE;
 		
 	}
 	
@@ -35,13 +37,14 @@ public class Comment {
 			boolean negative=true;
 			for (String word:words) 
 				if (!text.contains(word))negative=false;
+			input.close();
 			if (negative)return true;
 		}
 		return false;
 	}
 	
 	public boolean checkPositive() {
-		
+		return true;
 	}
 	
 	//this method returns the resource
@@ -54,6 +57,4 @@ public class Comment {
 	private InputStream getResourceAsStream(String path) {
 		return Comment.class.getClassLoader().getResourceAsStream(path);
 	}
-}
-		
 }
